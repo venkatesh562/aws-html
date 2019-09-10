@@ -1,0 +1,50 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.logo_brand{
+	color: red;
+}
+.logo_brand a{
+	font-weight: 900;
+    font-size: 30px;
+}
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0a0a0a;
+}
+li{
+	float: left;
+	padding: 16px 14px;
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+.navbar_right{
+	position: relative;
+    left: 60%;
+    text-transform: capitalize;
+  /*  padding: 10px;*/
+}
+.navbar_right .active{
+	background: #ffffff;
+	height: 41px;
+}
+.navbar_right .active a{
+	color: #0a0a0a;
+}
+.banner{
+	background-image: url(D:/venkateshUI/Tasks/images/nature.jpg);
+	height:500px;
+}
+.banner_title{
+	margin: auto;
+    width: 31%;
+    padding: 138px;
+    text-align: center;
+    height: 269px;
+}
+
